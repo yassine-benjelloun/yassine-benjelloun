@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,308 +8,370 @@
     <link href="./public/css/output.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-     <header id="yassine">
-       <!-- top navbar -->
-<div class="hidden md:flex bg-slate-900 text-white justify-between items-center px-8 lg:px-16 py-2 text-xs">
+    <header id="yassine">
+        <!-- top navbar -->
+        <div class="hidden md:flex bg-slate-900 text-white justify-between items-center px-8 lg:px-16 py-2 text-xs">
 
-    <!-- Left Side -->
-    <div class="flex items-center gap-6">
-        <a href="#" class="flex items-center gap-2">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                class="icon icon-tabler icons-tabler-outline icon-tabler-mail">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
-                <path d="M3 7l9 6l9 -6" />
-            </svg> hello@horizon.com
-        </a>
-
-        <a href="#" class="flex items-center gap-2">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                class="icon icon-tabler icons-tabler-outline icon-tabler-phone">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
-            </svg> +212 6 12 34 56 78
-        </a>
-    </div>
-
-    <!-- Right Side -->
-    <div class="flex items-center gap-5">
-        <span>Follow Us :</span>
-
-        <div class="flex items-center gap-4">
-            <a href="" class="hover:text-orange-500"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                class="icon icon-tabler icons-tabler-outline icon-tabler-brand-facebook">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
-            </svg></a>
-            <a href=""" class="hover:text-orange-500"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4l0 -10" />
-                <path d="M8.5 12a3.5 3.5 0 1 0 7 0a3.5 3.5 0 0 0 -7 0" />
-                <path d="M17 7v.01" />
-            </svg></a>
-            <a href="" class="hover:text-orange-500"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                class="icon icon-tabler icons-tabler-outline icon-tabler-brand-youtube">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8" />
-                <path d="M10 9l5 3l-5 3l0 -6" />
-            </svg></a>
-            <a href="" class="hover:text-orange-500"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M8 11v5" />
-                <path d="M8 8v.01" />
-                <path d="M12 16v-5" />
-                <path d="M16 16v-3a2 2 0 1 0 -4 0" />
-                <path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4l0 -10" />
-            </svg></a>
-        </div>
-    </div>
-
-</div>
-        <!-- main navbar -->
-<nav class="w-full bg-white shadow-sm relative z-50">
-
-    <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
-
-        <!-- Logo -->
-        <a href="" class="flex items-center gap-2">
-            <span class="text-3xl text-orange-500"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                class="icon icon-tabler icons-tabler-outline icon-tabler-location">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5" />
-            </svg></span>
-            <span class="text-2xl font-bold text-slate-900">
-                Horizon<span class="text-orange-500">.</span>
-            </span>
-        </a>
-
-        <!-- Desktop Menu -->
-        <div class="hidden md:flex items-center gap-9">
-
-            <a href="" class="text-orange-500 font-semibold border-b-2 border-orange-500 pb-2">
-                Home
-            </a>
-
-            <a href="" class="text-slate-800 hover:text-orange-500 transition">
-                Explore
-            </a>
-
-            <a href="" class="text-slate-800 hover:text-orange-500 transition">
-                About
-            </a>
-
-            <a href="" class="text-slate-800 hover:text-orange-500 transition">
-                Services
-            </a>
-
-            <a href="" class="text-slate-800 hover:text-orange-500 transition">
-                Pages
-            </a>
-
-            <a href="" class="text-slate-800 hover:text-orange-500 transition">
-                Contact
-            </a>
-
-        </div>
-
-        <!-- Desktop Button -->
-        <div class="hidden md:flex items-center gap-5">
-            <button class="text-xl"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                class="icon icon-tabler icons-tabler-outline icon-tabler-search">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M3 10a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
-                <path d="M21 21l-6 -6" />
-            </svg></button>
-
-            <a href=""
-                class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-full font-semibold transition flex justify-center">
-                Get Started <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-right-dashed">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <path d="M5 12h.5m3 0h1.5m3 0h6" />
-                    <path d="M13 18l6 -6" />
-                    <path d="M13 6l6 6" />
-                </svg>
-            </a>
-        </div>
-
-        <!-- Mobile Menu Checkbox -->
-        <input type="checkbox" id="menu" class="peer hidden">
-
-        <!-- Hamburger -->
-        <label for="menu" class="md:hidden cursor-pointer flex flex-col gap-1.5">
-            <span class="w-7 h-0.5 bg-slate-900"></span>
-            <span class="w-7 h-0.5 bg-slate-900"></span>
-            <span class="w-7 h-0.5 bg-slate-900"></span>
-        </label>
-
-        <!-- Mobile Menu -->
-        <div
-            class="hidden peer-checked:flex md:hidden flex-col absolute top-20 left-0 w-full bg-white shadow-lg p-6 gap-5">
-
-            <a href="" class="text-orange-500 font-semibold">Home</a>
-            <a href="" class="text-slate-800">Explore</a>
-            <a href="" class="text-slate-800">About</a>
-            <a href="" class="text-slate-800">Services</a>
-            <a href="" class="text-slate-800">Pages</a>
-            <a href="" class="text-slate-800">Contact</a>
-
-            <a href="" class="bg-orange-500 text-white text-center py-3 rounded-full font-semibold flex justify-center">
-                Get Started <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-right-dashed">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <path d="M5 12h.5m3 0h1.5m3 0h6" />
-                    <path d="M13 18l6 -6" />
-                    <path d="M13 6l6 6" />
-                </svg>
-            </a>
-
-        </div>
-
-    </div>
-
-</nav>
-
-     </header>
-     <main>
-        <!-- yassine section -->
-       
-<section id="yassine" class="max-w-6xl mx-auto px-5 py-10 md:py-14">
-
-    <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
-
-        <!-- Left Content -->
-        <div class="relative z-10">
-
-            <p class="text-orange-500 font-semibold text-sm mb-4">
-                Travel • Explore • Discover
-            </p>
-
-            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 leading-tight mb-4">
-                We craft bold brands
-                and digital experiences
-            </h1>
-
-            <p class="text-slate-600 text-sm md:text-base leading-relaxed max-w-md mb-6">
-                Discover amazing places around the world and
-                create unforgettable memories with Horizon.
-            </p>
-
-            <!-- Buttons -->
-            <div class="flex flex-wrap items-center gap-3">
-
-                <a href=""
-                    class="bg-orange-500 hover:bg-orange-600 text-white px-5 py-3 rounded-full text-sm font-semibold transition flex">
-                    Explore Destinations <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-right-dashed">
+            <!-- Left Side -->
+            <div class="flex items-center gap-6">
+                <a href="#" class="flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-mail">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <path d="M5 12h.5m3 0h1.5m3 0h6" />
-                        <path d="M13 18l6 -6" />
-                        <path d="M13 6l6 6" />
-                    </svg>
+                        <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
+                        <path d="M3 7l9 6l9 -6" />
+                    </svg> hello@horizon.com
                 </a>
 
-                <a href=""
-                    class="border border-gray-300 hover:border-orange-500 text-slate-900 px-5 py-3 rounded-full text-sm font-semibold transition">
-                     Watch Video
+                <a href="#" class="flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-phone">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                    </svg> +212 6 12 34 56 78
                 </a>
-                    <!-- Statistics -->
             </div>
-            <div class="grid grid-cols-3 gap-3 mt-10 text-center">
-            
-                <div class="border-r border-gray-200">
-                    <h2 class="text-2xl font-bold text-slate-900">10K+</h2>
-                    <p class="text-xs text-gray-500 mt-1">Happy Travelers</p>
+
+            <!-- Right Side -->
+            <div class="flex items-center gap-5">
+                <span>Follow Us :</span>
+
+                <div class="flex items-center gap-4">
+                    <a href="" class="hover:text-orange-500"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-brand-facebook">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                        </svg></a>
+                    <a href=""" class=" hover:text-orange-500"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path
+                                d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4l0 -10" />
+                            <path d="M8.5 12a3.5 3.5 0 1 0 7 0a3.5 3.5 0 0 0 -7 0" />
+                            <path d="M17 7v.01" />
+                        </svg></a>
+                    <a href="" class="hover:text-orange-500"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-brand-youtube">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8" />
+                            <path d="M10 9l5 3l-5 3l0 -6" />
+                        </svg></a>
+                    <a href="" class="hover:text-orange-500"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M8 11v5" />
+                            <path d="M8 8v.01" />
+                            <path d="M12 16v-5" />
+                            <path d="M16 16v-3a2 2 0 1 0 -4 0" />
+                            <path
+                                d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4l0 -10" />
+                        </svg></a>
                 </div>
-            
-                <div class="border-r border-gray-200">
-                    <h2 class="text-2xl font-bold text-slate-900">450+</h2>
-                    <p class="text-xs text-gray-500 mt-1">Destinations</p>
+            </div>
+
+        </div>
+        <!-- main navbar -->
+        <nav class="w-full bg-white shadow-sm relative z-50">
+
+            <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+
+                <!-- Logo -->
+                <a href="" class="flex items-center gap-2">
+                    <span class="text-3xl text-orange-500"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-location">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5" />
+                        </svg></span>
+                    <span class="text-2xl font-bold text-slate-900">
+                        Horizon<span class="text-orange-500">.</span>
+                    </span>
+                </a>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center gap-9">
+
+                    <a href="" class="text-orange-500 font-semibold border-b-2 border-orange-500 pb-2">
+                        Home
+                    </a>
+
+                    <a href="" class="text-slate-800 hover:text-orange-500 transition">
+                        Explore
+                    </a>
+
+                    <a href="" class="text-slate-800 hover:text-orange-500 transition">
+                        About
+                    </a>
+
+                    <a href="" class="text-slate-800 hover:text-orange-500 transition">
+                        Services
+                    </a>
+
+                    <a href="" class="text-slate-800 hover:text-orange-500 transition">
+                        Pages
+                    </a>
+
+                    <a href="" class="text-slate-800 hover:text-orange-500 transition">
+                        Contact
+                    </a>
+
                 </div>
-            
+
+                <!-- Desktop Button -->
+                <div class="hidden md:flex items-center gap-5">
+                    <button class="text-xl"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-search">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M3 10a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                            <path d="M21 21l-6 -6" />
+                        </svg></button>
+
+                    <a
+                        class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-full font-semibold transition flex justify-center">
+                        Get Started <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-right-dashed">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M5 12h.5m3 0h1.5m3 0h6" />
+                            <path d="M13 18l6 -6" />
+                            <path d="M13 6l6 6" />
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Checkbox -->
+                <input type="checkbox" id="menu" class="peer hidden">
+
+                <!-- Hamburger -->
+                <label for="menu" class="md:hidden cursor-pointer flex flex-col gap-1.5">
+                    <span class="w-7 h-0.5 bg-slate-900"></span>
+                    <span class="w-7 h-0.5 bg-slate-900"></span>
+                    <span class="w-7 h-0.5 bg-slate-900"></span>
+                </label>
+
+                <!-- Mobile Menu -->
+                <div
+                    class="hidden peer-checked:flex md:hidden flex-col absolute top-20 left-0 w-full bg-white shadow-lg p-6 gap-5">
+
+                    <a href="" class="text-orange-500 font-semibold">Home</a>
+                    <a href="" class="text-slate-800">Explore</a>
+                    <a href="" class="text-slate-800">About</a>
+                    <a href="" class="text-slate-800">Services</a>
+                    <a href="" class="text-slate-800">Pages</a>
+                    <a href="" class="text-slate-800">Contact</a>
+
+                    <a href=""
+                        class="bg-orange-500 text-white text-center py-3 rounded-full font-semibold flex justify-center">
+                        Get Started <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-right-dashed">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M5 12h.5m3 0h1.5m3 0h6" />
+                            <path d="M13 18l6 -6" />
+                            <path d="M13 6l6 6" />
+                        </svg>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+    <main>
+        <!-- yassine section -->
+
+        <section id="yassine" class="max-w-6xl mx-auto px-5 py-10 md:py-14">
+
+            <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+
+                <!-- Left Content -->
+                <div class="relative z-10">
+
+                    <p class="text-orange-500 font-semibold text-sm mb-4">
+                        Travel • Explore • Discover
+                    </p>
+
+                    <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 leading-tight mb-4">
+                        We craft bold brands
+                        and digital experiences
+                    </h1>
+
+                    <p class="text-slate-600 text-sm md:text-base leading-relaxed max-w-md mb-6">
+                        Discover amazing places around the world and
+                        create unforgettable memories with Horizon.
+                    </p>
+
+                    <!-- Buttons -->
+                    <div class="flex flex-wrap items-center gap-3">
+
+                        <a href=""
+                            class="bg-orange-500 hover:bg-orange-600 text-white px-5 py-3 rounded-full text-sm font-semibold transition flex">
+                            Explore Destinations <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round"
+                                class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-right-dashed">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M5 12h.5m3 0h1.5m3 0h6" />
+                                <path d="M13 18l6 -6" />
+                                <path d="M13 6l6 6" />
+                            </svg>
+                        </a>
+
+                        <a href=""
+                            class="border border-gray-300 hover:border-orange-500 text-slate-900 px-5 py-3 rounded-full text-sm font-semibold transition">
+                            Watch Video
+                        </a>
+                        <!-- Statistics -->
+                    </div>
+                    <div class="grid grid-cols-3 gap-3 mt-10 text-center">
+
+                        <div class="border-r border-gray-200">
+                            <h2 class="text-2xl font-bold text-slate-900">10K+</h2>
+                            <p class="text-xs text-gray-500 mt-1">Happy Travelers</p>
+                        </div>
+
+                        <div class="border-r border-gray-200">
+                            <h2 class="text-2xl font-bold text-slate-900">450+</h2>
+                            <p class="text-xs text-gray-500 mt-1">Destinations</p>
+                        </div>
+
+                        <div>
+                            <h2 class="text-2xl font-bold text-slate-900">98%</h2>
+                            <p class="text-xs text-gray-500 mt-1">Satisfaction Rate</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Right Image -->
+                <div class="relative">
+
+                    <img src="./public/images/caption.jpg" alt=""
+                        class="w-full h-[260px] md:h-[350px] object-cover rounded-3xl">
+
+                    <!-- Location Card -->
+                    <div
+                        class="absolute bottom-4 right-4 bg-white shadow-lg rounded-full px-4 py-3 flex items-center gap-2 text-sm font-semibold">
+                        <span class="text-orange-500"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round"
+                                class="icon icon-tabler icons-tabler-outline icon-tabler-location-pin">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M12 18l-2 -4l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5l-2.901 8.034" />
+                                <path
+                                    d="M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879" />
+                                <path d="M19 18v.01" />
+                            </svg></span>
+                        Santorini, Greece <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-right-dashed">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M5 12h.5m3 0h1.5m3 0h6" />
+                            <path d="M13 18l6 -6" />
+                            <path d="M13 6l6 6" />
+                        </svg>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <section id="yassine"></section>
+        <section id="yassine"></section>
+
+        <!-- taha -->
+        <section id="taha"></section>
+
+        <section id="taha"></section>
+        <section id="taha"></section>
+        <section id="taha"></section>
+
+
+
+        <!-- lalla hafsa -->
+
+        <section id="hafsa">
+            <div class="">
+                <!-- Left Side -->
+                <div class="">
+                    <p class="">Our Team -</p>
+                    <p class="">Meet Our Team</p>
+                    <div class="">
+                        <div class="">
+                            <img class="" src="./public/images/kumi.png" alt="kumi pic">
+                            <p class="">Kumi San</p>
+                            <p class="">CEO & founder</p>
+                        </div>
+                        <div class="">
+                            <img class="" src="./public/images/image.png" alt="alex pic">
+                            <p class="">Alex El Amrani</p>
+                            <p class="">Travel Expert</p>
+                        </div>
+                        <div class="">
+                            <img class="" src="./public/images/david.png" alt="david pic">
+                            <p class="">Ahmed El Idrissi</p>
+                            <p class="">Marketing</p>
+                        </div>
+                        <div class="">
+                            <img class="" src="./public/images/paula.png" alt="paula pic">
+                            <p class="">Nour Bennis</p>
+                            <p class="">Designer</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right Side -->
                 <div>
-                    <h2 class="text-2xl font-bold text-slate-900">98%</h2>
-                    <p class="text-xs text-gray-500 mt-1">Satisfaction Rate</p>
+                    <p>Testimonials -</p>
+                    <p>What Our Clients Say</p>
+                    <div>
+                        <div>
+                            <h1></h1>
+                            <p>Horizon made our trip unforgettable! <br>Excellent service and amazing suppoort.
+                            </p>
+                            <div><img src="./public/images/kumi.png" alt="FT">
+                            <div>
+                                <h1>Fatima Zahra</h1>
+                                <p>Happy Traveler</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div><img src="./public/images/travel girl.png" alt="travel girl"></div>
+                    </div>
                 </div>
-            
             </div>
+        </section>
+        <section id="hafsa"></section>
+        <section id="hafsa"></section>
+    </main>
 
-        </div>
-
-        <!-- Right Image -->
-        <div class="relative">
-
-            <img src="./public/images/caption.jpg" alt=""
-                class="w-full h-[260px] md:h-[350px] object-cover rounded-3xl">
-
-            <!-- Location Card -->
-            <div
-                class="absolute bottom-4 right-4 bg-white shadow-lg rounded-full px-4 py-3 flex items-center gap-2 text-sm font-semibold">
-                <span class="text-orange-500"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="icon icon-tabler icons-tabler-outline icon-tabler-location-pin">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <path d="M12 18l-2 -4l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5l-2.901 8.034" />
-                    <path
-                        d="M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879" />
-                    <path d="M19 18v.01" />
-                </svg></span>
-                Santorini, Greece <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-right-dashed">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <path d="M5 12h.5m3 0h1.5m3 0h6" />
-                    <path d="M13 18l6 -6" />
-                    <path d="M13 6l6 6" />
-                </svg>
-            </div>
-
-        </div>
-
-    </div>
-
-  
-   
+    <footer id="hafsa"></footer>
 
 
 
-         </section>
-         <section id="yassine"></section>
-         <section id="yassine"></section>
-
-      <!-- taha -->
-       <section id="taha"></section>
-       
-       <section id="taha"></section>
-       <section id="taha"></section>
-      <section id="taha"></section>
-
-
-
-      <!-- lalla hafsa -->
-      <section id="hafsa"></section>
-      <section id="hafsa"></section>
-      <section id="hafsa"></section>
-     </main>
-
-     <footer id="hafsa"></footer>
-
-
-    
-<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </body>
+
 </html>
